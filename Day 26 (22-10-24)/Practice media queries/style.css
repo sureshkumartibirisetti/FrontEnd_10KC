@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+@media screen and (width < 600px) {
+    .container{
+        background-color: lightblue;
+    }
+}
+@media screen and (width >= 600px) and (width <= 1024px) {
+    .container{
+        background-color: rgb(93, 199, 57);
+    }
+}
+@media screen and (width > 1024px) {
+    .container{
+        background-color: lightgray;
+    }
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (width < 500px){
+    p{
+        font-size: 10px;
+    }
+}
+@media screen and (width >= 500px) and (width < 800px) {
+    p{
+        font-size: 24px;
+    }
+}
+@media screen and (width >= 800px)  {
+    p{
+        font-size: 32px;
+    }
+}

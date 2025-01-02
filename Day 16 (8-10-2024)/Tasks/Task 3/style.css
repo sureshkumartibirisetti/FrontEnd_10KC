@@ -1,0 +1,47 @@
+.container{
+    width: 600px;
+    /* height: 600px; */
+    border: 2px;
+    border-style: solid;
+}
+.header{
+    width: 600px;
+    height: 400px;
+}
+.H1,.H2{
+    width: 140px;
+    height: 380px;
+    border: 2px;
+    border-style: solid;
+    margin: 5px;
+    display: inline-block;
+}
+.H3{
+    width: 240px;
+    height: 380px;
+    border: 2px;
+    border-style: solid;
+   margin: 7px;
+    display: inline-block;
+    
+}
+.footer{
+    width: 570px;
+    height: 220px;
+    border: 2px;
+    border-style: solid;
+    margin: 10px;
+    display: inline-block;
+
+}
+.F1,.F2,.F3{
+    width: 150px;
+    height: 180px;
+    border: 2px;
+    border-style: solid;
+    margin: 10px;
+    display: inline-block;
+}
+*{
+    border-width: 5px !important;
+}

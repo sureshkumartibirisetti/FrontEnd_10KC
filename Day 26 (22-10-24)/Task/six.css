@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+@media screen and (width > 600px) {
+    div{
+        box-shadow: 10px 10px 5px lightblue;
+    }
+}

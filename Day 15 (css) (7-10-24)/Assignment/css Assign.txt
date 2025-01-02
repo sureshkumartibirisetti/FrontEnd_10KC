@@ -1,0 +1,18 @@
+7-10-2024-ASSINMENT
+
+TODAY TOPIC:- CSS INTRO.
+
+
+TASK:-       Make Documentation on below topics
+-----------------------------------
+1.Different between css 3.0 & css 2.0.
+2.Documentation on simple selectors.
+3.What is properties & values.
+ 
+RESEARCH TOPICS:-
+
+1.What is advantage of in line style over  internal styles &external styles.
+
+2.What is advantage of internal styles over inline & external.
+
+3.What is advantage of external styles over inline & internal.

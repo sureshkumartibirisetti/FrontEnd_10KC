@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+</head>
+<body style="background-color: antiquewhite;">
+    <form action="submit.html" >
+    <center><h3 style="background-color: aquamarine;">GENERAL BUSS PASS APPLICATION</h3></center>
+    <!-- application Details -->
+    <fieldset><br>
+        <legend><b>Application Details</b></legend>
+            <label for="name">Name :</label>&emsp;&emsp;&emsp;&emsp;
+            <input type="text" name="username" id="name" placeholder="Enter Your Name" minlength="6" maxlength="20" required>&emsp;&emsp;
+            
+            <label for="fname">Father's/Guardian's Name :</label>&emsp;&emsp;
+            <input type="text" name="username1" id="fname" placeholder="Enter Father Name" minlength="6" maxlength="20" required><br><br>
+
+            <label for="bday">Date Of Birth :</label>&emsp;
+            <input type="date" name="email" id="bday"  required>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+
+            <label for="gender">Gender :</label>&emsp;&emsp;
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female"><br><br>
+
+            <label for="age">Age as on :</label>&emsp;&emsp;&nbsp;
+            <input type="text" name="text1" id="age" placeholder="00 years 00 months 00 days">&emsp;&emsp;
+
+            <label for="aadno">Aadhaar No :</label>&emsp;&emsp;&nbsp;&nbsp;&ensp;
+            <input type="text" name="text2" id="aadno" placeholder="Enter Country" required><br><br>
+
+            <label for="mobNo">Mobile No :</label>&emsp;&emsp;
+            <input type="number" name="mobNo" id="mobNo" placeholder="+91 XXXXXXXXXX" required>&emsp;&emsp;
+
+            <label for="email">Email Address :</label>&emsp;&emsp;
+            <input type="email" name="email" id="email" placeholder="mail@gmail.com" required><br><br>
+
+            <label for="title">Photo :</label>&emsp;&emsp;&emsp;&emsp;
+            <input type="file"  name="file" id="title" accept="image/png,image/jpeg"><br><br>
+    </fieldset><br>
+    <!-- Residental Address Details -->
+    <fieldset><br>
+        <legend><b>Residental Address Details</b></legend>
+        <label for="address">Applicant's Address:</label>&emsp;&emsp;
+        <textarea id="address" name="address" rows="4" cols="30" minlength="10" maxlength="30"></textarea>&emsp;&emsp;
+
+        <label for="District">District :</label>&emsp;&emsp;&emsp;&emsp;
+        <select id="District" required>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Kakinada">Kakinada</option>
+            <option value="Tirupathi">Tirupathi</option>
+        </select><br><br>
+
+        <label for="mandal">Mandal :</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <select id="mandal" required>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Kakinada">Kakinada</option>
+            <option value="Tirupathi">Tirupathi</option>
+        </select>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+
+        <label for="village">Village :</label>&emsp;&emsp;&emsp;&emsp;
+        <select id="village" required>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Kakinada">Kakinada</option>
+            <option value="Tirupathi">Tirupathi</option>
+        </select><br><br>
+
+        <label for="pincode">Pincode :</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;
+        <input type="text" name="pincode" id="pincode" placeholder="XXXXXXX" required maxlength="6"><br>
+        
+    </fieldset><br>
+    <!-- Pass Type Details -->
+     <fieldset><br>
+        <legend><b>Pass Type Details</b></legend>
+        <label for="City">City :</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <select id="City" required>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Kakinada">Kakinada</option>
+            <option value="Tirupathi">Tirupathi</option>
+        </select><br><br>
+
+        <label for="PassType">Pass Type :</label>&emsp;&emsp;&emsp;&emsp;
+        <select id="PassType" required>
+            <option value="Hyderabad"></option>
+            <option value="Kakinada">Kakinada</option>
+            <option value="Tirupathi">Tirupathi</option>
+        </select><br><br>
+     </fieldset><br>
+     <!-- Mode of Payment & Pass Collections -->
+     <fieldset><br>
+        <legend><b>Mode of Payment & Pass Collections</b></legend>
+        <label for="Payment">Payment Mode :</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <select id="Payment" required>
+            <option value="visa">Visa </option>
+            <option value="mastercard">mastercard</option>
+            <option value="giftcard">giftcard</option>
+        </select><br><br>
+        
+        <label for="passdel">Pass Delivery Mode :</label>&emsp;&emsp;&emsp;&emsp;
+        <select id="passdel" required>
+            <option value="Door Delivery">Door Delivery</option>
+            <option value="Normal Delivery">Normal Delivery</option>
+            <option value="GiftCard">TGiftCard</option>
+        </select><br><br>
+
+     </fieldset><br><br>
+     <center><input type="submit"></center>
+
+    </form>
+
+
+</body>
+</html>

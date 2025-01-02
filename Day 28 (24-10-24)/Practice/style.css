@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(217, 212, 204);
+    padding: 15px;
+    align-items: center;
+    font-size: 1rem;
+}
+.button1{
+    background-color: rgb(164, 180, 181);
+    border-radius: 3px;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+    
+}
+.img1{
+    height: 40px;
+}
+.menu{
+    display: none;
+}
+span:hover{
+    background-color: rgb(138, 135, 172);
+    border-radius: 5px;
+}
+.button1:hover{
+    color: blue;
+}
+
+@media screen and (max-width : 520px) {
+    nav{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        font-size: 2rem;
+    }
+    
+}
+img{
+    width: 100%;
+}
+.mini-container{
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    width: 30%;
+    height: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+.container{
+    position: relative;
+}
+h2{
+    margin-top: 15px;
+}
+.button2{
+    background-color: orange;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 40px;
+    
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.one{
+    font-size: 15px;
+    
+}
+.p1{
+    display: flex;
+}
+.lastone{
+    display: flex;
+    justify-content: center;
+}
+.p1{
+    margin-left: 4px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+

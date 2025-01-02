@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (width < 800px){
+    h2{
+        color: blue;
+    }
+    
+}
+@media screen and (width > 800px){
+    h2{
+        color: rgb(0, 255, 60);
+    }
+    
+}

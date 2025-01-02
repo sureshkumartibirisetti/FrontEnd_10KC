@@ -1,0 +1,50 @@
+.container{
+    width: 620px;
+    border: 5px;
+    border-style: solid;
+    
+}
+header{
+    width:580px;
+    height: 200px;
+    border: 5px;
+    border-style: solid;
+    margin: 10px;
+}
+.header{
+    width: 160px;
+    height: 170px;
+    display: inline-block;
+    border: 5px;
+    border-style: solid;
+    margin: 10px;
+}
+main{
+    width:600px;
+    height: 400px;
+
+}
+.m1{
+    width: 320px;
+    height: 380px;
+    display: inline-block;
+    border: 5px;
+    border-style: solid;
+    margin: 10px;
+
+}
+.m2{
+    width: 200px;
+    height: 380px;
+    display: inline-block;
+    border: 5px;
+    border-style: solid;
+    margin: 10px;
+}
+footer{
+    width: 580px;
+    height: 200px;
+    border: 5px;
+    border-style: solid;
+    margin: 10px;
+}

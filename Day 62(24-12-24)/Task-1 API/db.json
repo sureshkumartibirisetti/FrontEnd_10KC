@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "name": "KING",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "prudhvi"
+    },
+    {
+      "id": "3",
+      "name": "sandeep"
+    },
+    {
+      "id": "4",
+      "name": "Devara"
+    },
+    {
+      "id": "4",
+      "name": "Devara"
+    },
+    {
+      "id": "1",
+      "name": "Suresh"
+    }
+  ]
+}

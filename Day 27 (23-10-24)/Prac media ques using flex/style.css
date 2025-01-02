@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    padding: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+}
+.container{
+    text-align: center;
+    flex-basis: 100%;
+    margin: 2px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+text{
+    margin: 20px;
+    padding: 10px;
+}
+
+@media screen and (min-width : 600px) {
+    .container{
+        flex: 1 1 20%;
+    }
+    
+}

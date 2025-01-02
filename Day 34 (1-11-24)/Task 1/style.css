@@ -1,0 +1,117 @@
+/* HTML: <div class="loader"></div>
+.loader {
+    width: 60px;
+    aspect-ratio: 2;
+    --_g: no-repeat radial-gradient(circle closest-side,#ebd01e 90%,#eb090900);
+    background: 
+      var(--_g) 0%   50%,
+      var(--_g) 50%  50%,
+      var(--_g) 100% 50%;
+    background-size: calc(100%/3) 50%;
+    animation: l3 1s infinite linear;
+  }
+  @keyframes l3 {
+      20%{background-position:0%   0%, 50%  50%,100%  50%}
+      40%{background-position:0% 100%, 50%   0%,100%  50%}
+      60%{background-position:0%  50%, 50% 100%,100%   0%}
+      80%{background-position:0%  50%, 50%  50%,100% 100%}
+  } */
+
+.loader{
+ text-align: center; 
+ padding-top: 20%;  
+ padding-bottom: auto;
+}
+.circle1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(64, 64, 162);
+    display: inline-block;
+    animation-name: circle1;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transition: all 0.4s;
+    animation-duration: 1s;
+}
+.circle2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(242, 20, 12);
+    display: inline-block;
+    animation-name: circle2;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}.circle3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(251, 255, 0);
+    display: inline-block;
+    animation-name: circle3;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}.circle4{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(8, 250, 0);
+    display: inline-block;
+    animation-name: circle4;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+@keyframes circle1 {
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+        
+        transform: translateY(-20px);
+    }
+    100%{
+        translate: translateY(20px);
+    }
+    
+}
+@keyframes circle2 {
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+        
+        transform: translateY(-20px);
+    }
+    100%{
+        translate: translateY(20px);
+    }
+    
+}@keyframes circle3 {
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+        
+        transform: translateY(-20px);
+    }
+    100%{
+        translate: translateY(20px);
+    }
+    
+}@keyframes circle4 {
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+        
+        transform: translateY(-20px);
+    }
+    100%{
+        translate: translateY(20px);
+    }
+    
+}

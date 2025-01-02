@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+ 
+    height:100px
+    
+}
+.item1{
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+}
+.item2{
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 600px;
+}
+.item3{
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+}
+.item1{
+    background-color: aliceblue;
+}
+.main1{
+    background-color: antiquewhite;
+}
+.main2{
+    background-color: aqua;
+}
+.main3{
+    background-color: azure;
+}
+.item3{
+    background-color: bisque;
+}
