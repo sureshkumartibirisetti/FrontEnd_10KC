@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 3.	Build a Nested Structure and Append to the Body
+Create a <div> containing a <h1> heading and a <p> paragraph, both with distinct text. Append the <div> to the <body>. -->
+    <script>
+        let div=document.createElement("div")
+        let h=document.createElement("h1")
+        let p=document.createElement("p")
+        h.innerText=prompt("Heading")
+        p.innerText=prompt("Text")
+        div.append(h,p)
+        document.body.appendChild(div)
+    </script>
+</body>
+</html>

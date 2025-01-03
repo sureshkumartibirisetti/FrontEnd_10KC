@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let table=document.createElement("table")
+        let tr=document.createElement("tr")
+        for(let i=0;i<3;i++){
+            let td=document.createElement("td")
+            td.innerText=prompt()
+            tr.append(td)
+        }
+        table.append(tr)
+        document.body.appendChild(table)
+    </script>
+</body>
+</html>
+<!-- 3.	Build a Nested Structure and Append to the Body
+Create a <div> containing a <h1> heading and a <p> paragraph, both with distinct text. Append the <div> to the <body>. -->
