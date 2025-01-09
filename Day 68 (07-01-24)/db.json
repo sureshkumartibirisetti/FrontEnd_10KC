@@ -1,0 +1,50 @@
+{
+    "weather": [
+        {
+          "id": 501,
+          "main": "Rain",
+          "description": "moderate rain",
+          "icon": "10d"
+        }
+      ],
+      "base": "stations",
+      "main": {
+        "temp": 61.9,
+        "feels_like": 62.26,
+        "temp_min": 60.98,
+        "temp_max": 62.6,
+        "pressure": 1019,
+        "humidity": 95,
+        "sea_level": 1019,
+        "grnd_level": 1017
+      },
+      "visibility": 10000,
+      "wind": {
+        "speed": 11.5,
+        "deg": 140
+      },
+      "rain": {
+        "1h": 1.22
+      },
+      "clouds": {
+        "all": 100
+      },
+      "dt": 1736085111,
+      "sys": {
+        "type": 2,
+        "id": 2015175,
+        "country": "US",
+        "sunrise": 1736081639,
+        "sunset": 1736118571
+      },
+      "timezone": -21600,
+      "name": "Landon",
+      "cod": 200,
+    {
+      "id": 4429197,
+      "coord": {
+        "lon": -89.1028,
+        "lat": 30.438
+      },
+    }
+}
